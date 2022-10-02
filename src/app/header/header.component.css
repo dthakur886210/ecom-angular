@@ -1,0 +1,14 @@
+ .e_com{
+    color: blueviolet;
+}
+.ul_list{
+    list-style-type: none;
+}
+.main_nav li{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.main_nav li a{
+    text-decoration: none;
+    color: blueviolet;
+}
