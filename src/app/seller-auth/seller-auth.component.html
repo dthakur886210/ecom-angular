@@ -1,0 +1,63 @@
+<div *ngIf="!showLogin" class="seller_auth">
+  <div class="signup">
+    <h1 class="text-sm-center">Seller SignUp Form</h1>
+    <form
+      #sellerSignUp="ngForm"
+      (ngSubmit)="signUp(sellerSignUp.value)"
+      class="text-center d-flex m-auto flex-column w-25"
+    >
+      <input
+        type="text"
+        placeholder="Enter Name"
+        ngModel
+        name="name"
+        class="m-1"
+      />
+      <input
+        type="email"
+        placeholder="Enter Email"
+        ngModel
+        name="email"
+        class="m-1"
+      />
+      <input
+        type="password"
+        placeholder="Enter Password"
+        ngModel
+        name="password"
+        class="m-1"
+      />
+      <button class="m-1">SignUp</button>
+      <a class="m-3 text-decoration-none need_login" (click)="openToLogin()">Already have an account ? Click To Login</a>
+    </form>
+  </div>
+</div>
+<!-- login area -->
+
+<div *ngIf="showLogin" class="seller_auth">
+    <div class="signup">
+      <h1 class="text-sm-center">Seller Login</h1>
+      <form
+        #sellerSignUp="ngForm"
+        (ngSubmit)="signUp(sellerSignUp.value)"
+        class="text-center d-flex m-auto flex-column w-25"
+      >
+        <input
+          type="email"
+          placeholder="Enter Email"
+          ngModel
+          name="email"
+          class="m-1"
+        />
+        <input
+          type="password"
+          placeholder="Enter Password"
+          ngModel
+          name="password"
+          class="m-1"
+        />
+        <button class="m-1">Login</button>
+        <a  class="m-3 text-decoration-none need_signup" (click)="opentoSignup()">Don't have an account ? Click Here to Sign Up</a>
+      </form>
+    </div>
+  </div>

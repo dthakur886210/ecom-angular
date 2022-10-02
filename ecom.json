@@ -1,0 +1,52 @@
+{
+  "seller": [
+    {
+      "name": "deepak",
+      "email": "test@gmail.com",
+      "password": "123456789",
+      "id": 1
+    },
+    {
+      "name": "deepak",
+      "password": "232434",
+      "email": "abc@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "deee",
+      "password": "areaasd",
+      "email": "2323@test.com",
+      "id": 3
+    },
+    {
+      "name": "bruce",
+      "password": "jkfjsdiufai`",
+      "email": "2232@dkkd.com",
+      "id": 4
+    },
+    {
+      "name": "hello",
+      "email": "hello@test.com",
+      "password": "12345678",
+      "id": 5
+    },
+    {
+      "name": "tytfgjgkugtgtyhgtg",
+      "email": "deepak@test.com",
+      "password": "12345678",
+      "id": 6
+    },
+    {
+      "name": "fsdfsfresrefsfdfsvx",
+      "email": "deepsrfeak@test.com",
+      "password": "12345678fdsfe",
+      "id": 7
+    },
+    {
+      "name": "kjkljoijliuj",
+      "email": "deepak@test.com",
+      "password": "12345678",
+      "id": 8
+    }
+  ]
+}
