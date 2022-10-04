@@ -1,3 +1,11 @@
 .need_signup, .need_login{
     cursor: pointer;
+    color: rgb(255, 213, 5);
 }
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, .button_sign, .button_s {
+    border: 3px solid rgb(255, 213, 5);
+  }
+  .error_auth{
+    color: brown;
+    text-align: center;
+  }

@@ -11,23 +11,23 @@
         placeholder="Enter Name"
         ngModel
         name="name"
-        class="m-1"
+        class="m-1 input_1"
       />
       <input
         type="email"
         placeholder="Enter Email"
         ngModel
         name="email"
-        class="m-1"
+        class="m-1 input_2"
       />
       <input
         type="password"
         placeholder="Enter Password"
         ngModel
         name="password"
-        class="m-1"
+        class="m-1 input_3"
       />
-      <button class="m-1">SignUp</button>
+      <button class="m-1 button_sign">SignUp</button>
       <a class="m-3 text-decoration-none need_login" (click)="openToLogin()">Already have an account ? Click To Login</a>
     </form>
   </div>
@@ -37,9 +37,10 @@
 <div *ngIf="showLogin" class="seller_auth">
     <div class="signup">
       <h1 class="text-sm-center">Seller Login</h1>
+      <h3 class="error_auth text-sm-center">{{authError}}</h3>
       <form
-        #sellerSignUp="ngForm"
-        (ngSubmit)="signUp(sellerSignUp.value)"
+        #sellerLogIn="ngForm"
+        (ngSubmit)="login(sellerLogIn.value)"
         class="text-center d-flex m-auto flex-column w-25"
       >
         <input
@@ -56,8 +57,8 @@
           name="password"
           class="m-1"
         />
-        <button class="m-1">Login</button>
-        <a  class="m-3 text-decoration-none need_signup" (click)="opentoSignup()">Don't have an account ? Click Here to Sign Up</a>
+        <button class="m-1 button_s">Login</button>
+        <a  class="m-3 text-decoration-none need_signup " (click)="opentoSignup()">Don't have an account ? Click Here to Sign Up</a>
       </form>
     </div>
   </div>

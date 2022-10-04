@@ -1,5 +1,5 @@
  .e_com{
-    color: blueviolet;
+    color: rgb(255, 213, 5);
 }
 .ul_list{
     list-style-type: none;
@@ -10,5 +10,5 @@
 }
 .main_nav li a{
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(255, 213, 5);
 }
